@@ -1,0 +1,23 @@
+:root {
+  /* Add your CSS variables here */
+  --background: #fff;
+  --font-color: #494949;
+
+  --test-black: #131111;
+  --test-white: #e0e0e0;
+  --test-red: #ff2323;
+  --test-green: #005f20;
+  --test-blue: #070bce;
+
+  --heading-font-size: 40px;
+
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #3c3c3c;
+    --font-color: #fafafa;
+  }
+}
+
